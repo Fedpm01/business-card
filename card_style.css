@@ -1,0 +1,32 @@
+body {
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.pic {
+    width: 150px;
+}
+
+.card {
+    width:400px;
+    margin: 0px auto;
+
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+
+    color:#16a9f8;
+    border-bottom: 8px solid #16a9f8;
+    background-image: linear-gradient(to bottom right, #272640, #4d194d);
+    text-shadow: 2px 2px 4px #000000;
+
+    animation-name: bg;
+    animation-duration: 4s;
+}
+
+@keyframes bg {
+    from{color: #16a9f8;}
+    to{color: #0d6c9f;}
+}
